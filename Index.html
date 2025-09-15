@@ -1,0 +1,130 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Portfolio King</title>
+        <meta name="description" content="A Portfolio Project">
+        <link rel="stylesheet" href="style/formatting.css">
+        <link rel="stylesheet" href="style/selectable-lists.css">
+        <link rel="stylesheet" href="style/mouse-light.css">
+        <link rel="stylesheet" href="style/layout.css">
+        <link rel="stylesheet" href="style/mobile-layout.css">
+        <link rel="stylesheet" href="style/navigation.css">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/responsive.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+    </head>
+    <body>
+        <div id="mouseLight"></div>
+        <!-- Desktop content -->
+        <div class="container desktop-only">
+            <div class="sticky-side">
+                <div class="sticky-content">
+                    <div class="intro">
+                        <h1>David King</h1>
+                        <h3>FullStack Developer</h3>
+                        <p style="width: 60%;">I create clean and seamless experiences on the web.</p>
+                    </div>
+                    <nav>
+                        <div class="nav-link-group active"><span class="nav-link-indicator"></span><a href="#about" class="nav-link">ABOUT</a></div>
+                        <div class="nav-link-group"><span class="nav-link-indicator"></span><a href="#experience" class="nav-link">EXPERIENCE</a></div>
+                        <div class="nav-link-group"><span class="nav-link-indicator"></span><a href="#projects" class="nav-link">PROJECTS</a></div>
+                    </nav>
+                    <div class="social-icons">
+                        <a href="https://github.com/David-dev-King" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://twitter.com/@daviddevking" target="_blank"><i class="fab fa-x"></i></a>
+                        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://youtube.com/@daviddevking" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-side">
+                <div class="scroll-content">
+                    <section class="main-section desktop-only" id="about">
+                        <p>I&apos;m a <span class="bold">Developer</span> passionate about building solid web apps that just work. I enjoy crafting seamless experience for users, in both visuals and functionality.</p>
+                        <p>I&apos;m a computer major at <span class="bold">Nnamdi Azikiwe University.</span> I&apos;m currently working on building my skills through small projects to prepare me for real world tasks.</p>
+                        <p>Aquiring a diverse skillset in the tech field is something I consider important. My skillset includes <span class="bold">Frontend web development</span> HTML CSS and JavaScript and tools such as react and tailwind css, <span class="bold">Backend web development and Basic cloud computing</span>, working with <span class="bold">Node.js </span> and <span class="bold">AWS,</span>. I can also get a bit more hands-on as I do have <span class="bold">Basic Computer Networking</span> skills.</p>
+                        <p>In my spare time, I do enjoy working on game dev projects and making content for my <a href="https://youtube.com/@DavidDevKing" target="_blank">YouTube channel.</a></p>
+                    </section>
+                    <section class="main-section desktop-only" id="experience">
+                        <center class="desktop-only"><h3>~Experience~</h3></center>
+                        <p>I currently don't have any work experience to my name. I do hope to change that soon with internships comming up at my university. I'll focus on building projects for now instead.</p>
+                    </section>
+                    <section class="main-section desktop-only" id="projects">
+                        <div class="selectable-list">
+                            <a class="selectable-item" href="https://github.com/David-dev-King/Brittany-Chiang-portfolio-clone" target="_blank">
+                                <div class="selectable-right">
+                                    <img src="images/Brittany-Chaing.png" alt="Brittany Chaing's Portfolio">
+                                </div>
+                                <div class="selectable-left">
+                                    <h4>A portfolio clone</h4>
+                                    <p>This very project is a clone of Brittany Chiang's own portfolio website. Made as a learning project with HTML CSS and JavaScript.</p>
+                                </div>
+                            </a>
+                            <a class="selectable-item" href="https://github.com/David-dev-King/simple-todolist-app" target="_blank">
+                                <div class="selectable-right">
+                                    <img src="images/task-square-svgrepo-com.svg" alt="A checklist icon" style="background-color: white;">
+                                </div>
+                                <div class="selectable-left">
+                                    <h4>To-do list app</h4>
+                                    <p>A simple to-do list app that saves your lists to localStorage, Build with HTML, CSS and JavaScript.</p>
+                                </div>
+                            </a>
+                            <a class="selectable-item" href="https://github.com/David-dev-King/simple-todolist-app-react " target="_blank">
+                                <div class="selectable-right">
+                                    <img src="images/check-lists-square-svgrepo-com.svg" alt="A checklist icon" style="background-color: white;">
+                                </div>
+                                <div class="selectable-left">
+                                    <h4>To-do list again</h4>
+                                    <p>An app build with, React.js, Node.js, Tailwind.css and Node.js. A little more complex than the first one and hosted using AWS services.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- Mobile content -->
+        <div class="container mobile-only">
+            <div class="mobile-header">
+                <div class="header-content">
+                    <div class="intro">
+                        <h1>David King</h1>
+                        <h3>FullStack Developer</h3>
+                        <p>I create clean and seamless experiences on the web.</p>
+                    </div>
+                    <div class="social-icons">
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+                <section class="main-section mobile-only" id="about">
+                    <div class="sticky-top" id="about-top">ABOUT</div>
+                    <div class="sticky-placeholder" id="about-top-placeholder">ABOUT</div>
+                </section>
+                <section class="main-section mobile-only" id="experience">
+                    <div class="sticky-top" id="experience-top">EXPERIENCE</div>
+                    <div class="sticky-placeholder" id="experience-top-placeholder">EXPERIENCE</div>
+                </section>
+                <section class="main-section mobile-only" id="projects">
+                    <div class="sticky-top" id="projects-top">PROJECTS</div>
+                    <div class="sticky-placeholder" id="projects-top-placeholder">PROJECTS</div>
+                </section>
+            </div>
+        </div>
+        <script src="js/content-transfer.js"></script>
+        <script src="js/sticky-top.js"></script>
+        <script src="js/mouse-light.js"></script>
+        <script src="js/scroll-and-navigation.js"></script>
+        <script src="js/responsive.js"></script>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+body{
+    overflow: hidden;
+    margin: 0;
+}
+.container.desktop-only{
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+.container.desktop-only > *{
+    padding: 90px 0;
+}
+.sticky-side{
+    flex: 0 1 50%;
+    position: sticky;
+    height: 100vh;
+}
+.scroll-side{
+    flex: 0 1 50%;
+    scroll-behavior: auto;
+    overflow-y: auto;
+    height: 100vh;
+}
+.scroll-content{
+    padding-right: 75px;
+}
+.sticky-content{
+    padding-left: 75px;
+}
+.main-section{
+    padding-bottom: 100px;
+}

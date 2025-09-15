@@ -1,0 +1,43 @@
+.container.mobile-only{
+    display: none;
+}
+/* tablets */
+@media (max-width: 1023px) {
+    .desktop-only{
+        display: none;
+        position: fixed;
+        z-index: -10;
+        width: 0px;
+        height: 0px;
+    }
+    html{
+        overflow-y: scroll;
+    }
+    .container.mobile-only{
+        display: block;
+    }
+    .sticky-side{
+        display: none;
+    }
+    .selectable-item{
+        padding: 10px 0;
+    }
+}
+
+/* Mobile phones */
+@media (max-width: 768px){
+    .container.mobile-only{
+        padding: 48px 24px;
+    }
+    .sticky-top{
+        padding: 24px 24px
+    }
+}
+@media (max-width: 640px){
+    h1{
+        font-size: 40px;
+    }
+    .intro > h3{
+        font-size: 18px;
+    }
+}

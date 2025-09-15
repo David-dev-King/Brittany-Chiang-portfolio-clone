@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Axiforma";
+    src: url(../font/Axiforma-Regular.ttf);
+}
+@font-face {
+  font-family: "Axiforma-light";
+  src: url(../font/Axiforma-Light.ttf);
+}
+@font-face {
+  font-family: "Axiforma-bold";
+  src: url(../font/Axiforma-Bold.ttf);
+}
+@font-face {
+  font-family: "Axiforma-extra-bold";
+  src: url(../font/Axiforma-ExtraBold.ttf);
+}
+body{
+    background-color: #0F172A;
+    font-family: "Axiforma";
+    color: #E2E8F0;
+}
+body::selection{
+  background-color: #5EEAD4;
+  color: #154E5A;
+}
+h1{
+  font-size: 50px;
+  font-family: "Axiforma-extra-bold";
+  margin: 0;
+}
+h3{
+  margin-top: 0;
+  font-weight: normal;
+}
+p {
+    color: #94A3B8;
+    font-size: 15px;
+}
+a {
+  text-decoration: none;
+}
+a:not(.selectable-item) {
+  color: #64748B;
+  font-size: 15px;
+  font-family: "Axiforma-bold";
+}
+a:not(.selectable-item):hover{
+  color: #E2E8F0;
+}
+.bold{
+  font-family: "Axiforma-bold";
+  color: #E2E8F0;
+}

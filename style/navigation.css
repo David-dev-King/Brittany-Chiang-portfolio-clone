@@ -1,0 +1,38 @@
+nav{
+    margin: 12% 0; 
+}
+.nav-link-group{
+    position: relative;
+    cursor: pointer;
+    width: 80%;
+    padding: 6px 0;
+}
+.nav-link {
+    font-size: 13px;
+    padding-left: 50px;
+    transition: all 0.2s;
+}
+.nav-link-indicator{
+    position: absolute;
+    top: 45%;
+    height: 1px;
+    background: #64748B;
+    width: 30px;
+    transition: width 0.2s ease;
+}
+.nav-link-group.active > .nav-link-indicator{
+    width: 70px;
+    background-color: #E2E8F0;
+}
+.nav-link-group.active > .nav-link{
+    color: #E2E8F0;
+    padding-left: 90px;
+}
+.nav-link-group:hover > .nav-link-indicator{
+    width: 70px;
+    background-color: #E2E8F0;
+}
+.nav-link-group:hover > .nav-link{
+    color: #E2E8F0;
+    padding-left: 90px;
+}

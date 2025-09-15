@@ -1,0 +1,34 @@
+.selectable-list:hover > .selectable-item:not(.selectable-item:hover){
+    opacity: 50%;
+}
+.selectable-item:hover{
+    opacity: 100%;
+    background-color: rgb(146, 215, 255, 0.2);
+    border-radius: 6px;
+}
+.selectable-item{
+    display: flex;
+    cursor: pointer;
+    gap: 30px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    transition: all 0.2s ease;
+}
+.selectable-right{
+    flex: 0 0 30%;
+}
+.selectable-right > img{
+    width: 100%;
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin-top: 4px;
+}
+.selectable-left{
+    flex: 1;
+}
+.selectable-left > h4{
+    color: #E2E8F0;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}

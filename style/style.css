@@ -1,0 +1,13 @@
+.social-icons {
+    display: flex;
+    gap: 20px; /* Space between icons */
+}  
+.social-icons a {
+    color: #94A3B8; /* Icon color */
+    font-size: 25px; /* Icon size */
+    transition: color 0.3s;
+}
+  
+.social-icons a:hover {
+    color: #E5E7EB; /* Facebook blue on hover */
+}
